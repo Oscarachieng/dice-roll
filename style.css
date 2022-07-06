@@ -4,10 +4,11 @@ main{
     background-color: lightsalmon;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 100px;
 }
 button#new-game{
     align-self: center;
-    margin-left: 450px;
+    margin-left: 350px;
     margin-top: 30px;
     padding: 10px;
     border-radius: 20px;
@@ -25,4 +26,48 @@ button#new-game{
  section.section{
      float: left;
      width: 40%;
+     margin-top: 50px;
+     text-align: center;
  }
+
+.total-score{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p.score{
+    font-size: xx-large;
+    color: white;
+    font-style: oblique;
+}
+
+.current-score{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+.role-dice, .hold{
+    font-size: larger;
+    color: orange;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    font-style: oblique;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+
+}
+.role-dice:hover, .hold:hover{
+    font-size: larger;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    font-style: oblique;
+    margin: 20px;
+    border-radius: 20px;
+}
